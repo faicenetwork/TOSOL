@@ -15,8 +15,8 @@ if password == "sol2026":
     st.write("Hola Sol, aquí tenés la lista actualizada de pacientes que reservaron web.")
 
     # 3. Conexión a Supabase (Poné tus claves reales aquí)
-    URL_SUPABASE = "https://TU_PROYECTO.supabase.co"
-    CLAVE_SUPABASE = "TU_ANON_KEY_AQUÍ"
+    URL_SUPABASE = "https://alfbhquzojffyqitftbn.supabase.co"
+    CLAVE_SUPABASE = "sb_publishable_Brou4uCaIEgQvF5NuPIdyg_94cFl22W"
     
     try:
         supabase = create_client(URL_SUPABASE, CLAVE_SUPABASE)
