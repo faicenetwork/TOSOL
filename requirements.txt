@@ -1,11 +1,2 @@
-### 2. Conectar a Streamlit Cloud
-* Entrá a [share.streamlit.io](https://share.streamlit.io/) e iniciá sesión con tu misma cuenta de **GitHub**.
-* Hacé clic en el botón **"Create app"** (Crear app).
-
-### 3. ¡Desplegar!
-* Seleccioná el repositorio de GitHub donde subiste el código, elegí la rama (`main` o `master`) y escribí el nombre del archivo: `panel_admin.py`.
-* Hacé clic en **"Deploy!"** (Desplegar).
-
-¡Y listo! Streamlit se va a poner a cocinar el sitio y en dos minutos te va a dar el enlace web para enviarle a María Sol. Ella entrará, pondrá la contraseña que definieron (`sol2026`) y verá su consultorio digitalizado.
-
-¿Te animás a armar el repositorio de GitHub para este panel o preferís que primero terminemos de dejar a punto la web principal en Netlify?
+supabase
+pandas
