@@ -40,7 +40,7 @@ else:
     
     try:
         supabase = create_client(URL_SUPABASE, CLAVE_SUPABASE)
-        resultado = supabase.table("turnos").select("*").order("fecha", descending=False).execute()
+        resultado = supabase.table("turnos").select("*").order("fecha", desc=False).execute()
 
         if resultado.data:
             df = pd.DataFrame(resultado.data)
