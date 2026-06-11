@@ -5,8 +5,7 @@ from supabase import create_client
 
 # Usa las mismas credenciales que sacaste en el Paso 3
 URL_SUPABASE = "https://alfbhquzojffyqitftbn.supabase.co"
-CLAVE_SUPABASE = "
-sb_publishable_Brou4uCaIEgQvF5NuPIdyg_94cFl22W"
+CLAVE_SUPABASE = "sb_publishable_Brou4uCaIEgQvF5NuPIdyg_94cFl22W"
 
 supabase = create_client(URL_SUPABASE, CLAVE_SUPABASE)
 
